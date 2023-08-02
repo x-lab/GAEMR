@@ -43,7 +43,7 @@ setup(
 	'bin/subset_fasta.py'
     ],
     url='http://www.broadinstitute.org/software/gaemr/',
-    license='LICENSE.txt',
+    license='LICENSE',
     description='Genome Assembly Evaluation Metrics and Reporting.',
-    long_description=open(join(dirname(__file__), 'README.txt')).read(),
+    long_description=open(join(dirname(__file__), 'README.md')).read(),
 )
